@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.content {
+  min-width: 360px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  border: 1px dashed rgb(217, 217, 217);
+  margin-top: 16px;
+}
+
+.buttons-container{
+  margin-top: 24px;
+}
+
+h3 {
+  line-height: initial;
+}
+
+.checkbox-container{
+  margin-bottom: 24px;
+}
+
+.checkbox-container .ant-checkbox-group{
+  display: flex;
+  justify-content: center;
+}
+
+.checkbox-container .ant-checkbox-group label{
+  text-align: left;
+}
+
+.checkbox-text {
+  margin-top: 20px;
+}
